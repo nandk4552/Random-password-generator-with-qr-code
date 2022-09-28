@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Random Password QR Code Generator ">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="NAND KISHORE">
+    <link rel="icon" class="logo" href="favicon.ico"" />
+
+    <title>Random Password QR Code Generator in JavaScript | NAND KISHORE</title>
+    <link rel=" stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <span class="auth">Created By ❤️ NAND KISHORE</span>
+            <h1>Random Password <br><span> QR Code Generator</span> </h1>
+        </header>
+
+        <div class="form">
+            <input type="text" name="" placeholder="Create password" id="password" readonly>
+            <table>
+                <th>
+                    <div id="button" class="btn1" onclick="genPassword()">Generate</div>
+                </th>
+                <th><a id="button" class="btn2" onclick="copyPassword()">Copy</a></th>
+            </table>
+            <button>Generate QR Code</button>
+        </div>
+        <div class="qr-code">
+            <img src="" alt="qr-code">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
