@@ -1,1 +1,2 @@
-# Random-password-generator-with-qr-code
+# Random Password Generator with QR code
+# Live preview of the webpage: https://randomqrpassword.netlify.app/
